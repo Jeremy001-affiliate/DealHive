@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,14 +38,18 @@
         }
         .product-container {
             margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .product {
             background: white;
             padding: 15px;
-            margin: 10px auto;
+            margin: 10px;
             width: 300px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         .product img {
             width: 100%;
@@ -62,6 +65,10 @@
             border-radius: 5px;
             font-weight: bold;
         }
+        .details {
+            text-align: left;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -73,6 +80,77 @@
             <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/1.jpg" alt="AC Category">
             Best AC under 35000
         </a>
+        <div class="product-container">
+            <div class="product">
+                <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/1.jpg" alt="Carrier 1 Ton 5 Star">
+                <h3>Carrier 1 Ton 5 Star</h3>
+                <div class="details">
+                    <strong>Advantages:</strong>
+                    <ul>
+                        <li>Energy-efficient with 5-star rating</li>
+                        <li>Fast cooling</li>
+                        <li>Low noise operation</li>
+                    </ul>
+                    <strong>Disadvantages:</strong>
+                    <ul>
+                        <li>Higher initial cost</li>
+                        <li>Requires professional installation</li>
+                    </ul>
+                </div>
+                <a href="https://www.amazon.in/gp/product/B0DSXQZ4L5/">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/2.jpg" alt="Panasonic 1 Ton 3 Star">
+                <h3>Panasonic 1 Ton 3 Star</h3>
+                <div class="details">
+                    <strong>Advantages:</strong>
+                    <ul>
+                        <li>Affordable price</li>
+                        <li>Good cooling performance</li>
+                    </ul>
+                    <strong>Disadvantages:</strong>
+                    <ul>
+                        <li>Less energy-efficient</li>
+                        <li>Limited advanced features</li>
+                    </ul>
+                </div>
+                <a href="https://www.amazon.in/gp/product/B0DSWRQRNZ/">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/3.jpg" alt="Haier 1 Ton 3 Star">
+                <h3>Haier 1 Ton 3 Star</h3>
+                <div class="details">
+                    <strong>Advantages:</strong>
+                    <ul>
+                        <li>Good cooling for small rooms</li>
+                        <li>Durable build quality</li>
+                    </ul>
+                    <strong>Disadvantages:</strong>
+                    <ul>
+                        <li>Higher power consumption</li>
+                        <li>Basic design</li>
+                    </ul>
+                </div>
+                <a href="https://www.amazon.in/gp/product/B0CSK23FH5/">Buy Now</a>
+            </div>
+            <div class="product">
+                <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/4.jpg" alt="Voltas 1 Ton 3 Star">
+                <h3>Voltas 1 Ton 3 Star</h3>
+                <div class="details">
+                    <strong>Advantages:</strong>
+                    <ul>
+                        <li>Reliable brand</li>
+                        <li>Decent cooling performance</li>
+                    </ul>
+                    <strong>Disadvantages:</strong>
+                    <ul>
+                        <li>Not as energy-efficient as a 5-star model</li>
+                        <li>Basic features</li>
+                    </ul>
+                </div>
+                <a href="https://www.amazon.in/gp/product/B0DSVSMK39/">Buy Now</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
