@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bee Hive - Amazon Affiliate Deals</title>
+    <title>Best AC under 35000</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -10,68 +10,81 @@
             padding: 0;
             background-color: #f8f8f8;
             text-align: center;
-            position: relative;
         }
         header {
             background-color: #ff9900;
             padding: 15px;
             font-size: 24px;
             color: white;
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
-        .logo {
-            height: 80px;
-            margin-left: 15px;
-        }
-        .funky-text {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            font-size: 36px;
-            font-weight: bold;
-            margin-left: 10px;
         }
         .container {
             padding: 20px;
         }
         .category {
-            margin: 20px 0;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: bold;
             cursor: pointer;
             background-color: #ff9900;
             color: white;
-            padding: 10px;
+            padding: 15px;
             border-radius: 5px;
             display: inline-block;
+            margin: 10px;
         }
-        .exclusive-deal {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 200px;
+        .category img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .product-container {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
             background: white;
-            padding: 10px;
+            padding: 15px;
+            margin: 10px;
+            width: 300px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product a {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #ff9900;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .details {
+            text-align: left;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/DealHive/main/Logo.png" alt="Bee Hive Logo" class="logo">
-        <span class="funky-text">Bee Hive</span>
+        Best AC under 35000
     </header>
-    
-    <div class="exclusive-deal">
-        <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/DealHive/main/Amazon-Emblem.jpg" alt="Amazon Deal" style="width:100%; border-radius:5px;">
-        <h3>Exclusive Amazon Deal</h3>
-        <p>Don't miss this amazing offer on Amazon!</p>
-        <a href="https://amzn.to/42mHFDE" target="_blank">Buy on Amazon</a>
-    </div>
-    
     <div class="container">
-        <div class="category" onclick="location.href='ac.html'">Best AC under 35000</div>
+        <a href="ac.html" class="category">
+            <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/1.jpg" alt="AC Category">
+            Best AC under 35000
+        </a>
+        <a href="deals.html" class="category">
+            <img src="https://raw.githubusercontent.com/Jeremy001-affiliate/Jeremy-s-blog-on-products/main/deals.jpg" alt="Latest Deals">
+            Latest Deals and Offers
+        </a>
     </div>
 </body>
 </html>
